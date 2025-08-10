@@ -1,0 +1,19 @@
+@import url('google.apis.com/material_icons/v2/1/materialicons.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+.education {
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+}
+.education h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.education p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}   

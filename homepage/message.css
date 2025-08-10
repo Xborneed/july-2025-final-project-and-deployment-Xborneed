@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+.message-form {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top:10px;
+    width: 50%;
+
+  
+}
+.message-form h1 {
+  font-size: 2.5em;
+  text-align: center;
+  
+  margin-bottom: 10px;
+}
+
+
+.message-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+
+}
+
+.message-form input[type="text"],
+.message-form input[type="email"],
+.message-form input[type="number"]{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.message-form input[type="submit"] {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}

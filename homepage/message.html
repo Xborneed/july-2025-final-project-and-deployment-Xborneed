@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="message.css">
+
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="./assets/titleicon.png" type="image/x-icon">
+    <title>My portfolio</title>
+    
+</head>
+<body>
+
+<!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <div id="logo">
+                  <img src="./assets/titleicon.png" width = "200px" height = "200px" alt="logo">
+            </div>
+
+            <div class="nav_list" id="nav-list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li id="about-button">
+                        <a href="../about/about.html">About</a>
+
+                        <div class="dropmenu">
+                            <ul>
+                                <li><a href="../about/education.html">Education</a></li>
+                                <li><a href="../about/experience.html">Experience</a></li>
+                                <li><a href="#achievements">Achievements</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li id="about-button">
+                        <a href="#projects">Projects</a>
+
+                         <div class="dropmenu">
+                            <ul>
+                                <li><a href="todoapp">Todo App</a></li>
+                                <li><a href="#simplecalculator">Calculator</a></li>
+                                <li><a href="#counter">Counter</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="about-button">
+                        <a href="#skills">Skills</a>
+
+                         <div class="dropmenu">
+                            <ul>
+                                <li><a href="Graphic Design">Graphic Design</a></li>
+                                <li><a href="#Webdevelopment">Web development</a></li>
+                               
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="about-button">
+                        <a href="#contact">Contact</a>
+
+                         <div class="dropmenu">
+                            <ul>
+                                <li><a href=".footer">Social media</a></li>
+                                <li><a href="message.html">Message</a></li>
+                           
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle_icon" id="toggle-icon">
+                <i class="material-icons" >menu</i>
+            </div>
+          
+        </div>
+    </header>
+
+
+    <!--Main-->
+    <main class="main-container">
+ 
+        <section class="message-form">
+            <h1>Send Message</h1>
+            <form action="" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name-text" placeholder="Enter your name" required>
+
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email-text" placeholder="Enter your email" required>
+
+
+                <label for="phone">Mobile number</label>
+                <input type="text" name="phone" id="phone-text" placeholder="Enter your mobile number" required>
+
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message-text" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+
+                <input type="submit" id="submit-button" value="Send">
+            </form>
+
+            
+
+        </section>
+
+
+    
+    </main>
+
+
+
+   
+
+  
+    
+
+
+    <!--Javasctpt -->
+
+    <script src="index.js"></script>
+</body>
+</html>
